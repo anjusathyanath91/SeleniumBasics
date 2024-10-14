@@ -14,7 +14,7 @@ public class FirstSelenium {
          System.out.println(title);
          String currenturl=driver.getCurrentUrl(); //to get current url 
          System.out.println(currenturl);
-         driver.get(currenturl);//to refresh the url
+         driver.get(currenturl);//to refresh the url..
          
          driver.quit();//to close whole site tab
          driver.close();//to close current tab
